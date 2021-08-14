@@ -90,3 +90,4 @@ fastlane/test_output
 iOSInjectionProject/
 ConfigurationFiles/ConfigDebug.xcconfig
 ConfigurationFiles/ConfigRelease.xcconfig
+.DS_Store

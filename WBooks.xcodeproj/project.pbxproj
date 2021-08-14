@@ -10,8 +10,6 @@
 		74C8E8F07439B9CFA1BD0BD8 /* Pods_WBooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E63DE15D163A996F44544F8 /* Pods_WBooks.framework */; };
 		87786FD8A8211818E7FB37A9 /* Pods_WBooksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E75F1027E5C3225554416C2 /* Pods_WBooksTests.framework */; };
 		B5BAEDC04094E547834700BE /* Pods_WBooks_WBooksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC138CF425F6E7E0EC53C2D /* Pods_WBooks_WBooksUITests.framework */; };
-		C408DCE926C6F62A0022A737 /* ConfigDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C408DCE826C6F62A0022A737 /* ConfigDebug.xcconfig */; };
-		C408DCEB26C6F6690022A737 /* ConfigRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C408DCEA26C6F6690022A737 /* ConfigRelease.xcconfig */; };
 		C45557C826C6BC4900F5F2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45557C726C6BC4900F5F2AF /* AppDelegate.swift */; };
 		C45557CA26C6BC4900F5F2AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45557C926C6BC4900F5F2AF /* SceneDelegate.swift */; };
 		C45557CC26C6BC4900F5F2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45557CB26C6BC4900F5F2AF /* ViewController.swift */; };
@@ -282,8 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C408DCEB26C6F6690022A737 /* ConfigRelease.xcconfig in Resources */,
-				C408DCE926C6F62A0022A737 /* ConfigDebug.xcconfig in Resources */,
 				C45557D426C6BC4A00F5F2AF /* LaunchScreen.storyboard in Resources */,
 				C45557D126C6BC4A00F5F2AF /* Assets.xcassets in Resources */,
 				C45557CF26C6BC4900F5F2AF /* Main.storyboard in Resources */,
@@ -473,6 +469,7 @@
 /* Begin XCBuildConfiguration section */
 		C45557EC26C6BC4B00F5F2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C408DCE826C6F62A0022A737 /* ConfigDebug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -534,6 +531,7 @@
 		};
 		C45557ED26C6BC4B00F5F2AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C408DCEA26C6F6690022A737 /* ConfigRelease.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
